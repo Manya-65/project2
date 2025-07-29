@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome | Your App</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #333;
+    }
+    .container {
+      background: white;
+      padding: 2rem 3rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 400px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        transform: translateY(30px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      color: #4a4a4a;
+    }
+    p {
+      margin-bottom: 2rem;
+      color: #666;
+    }
+    .btn {
+      background-color: #c663ff;
+      color: rgb(255, 255, 255);
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #48dde5;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.85rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to JOB PORTAL 🚀</h1>
+    <p>Start your journey with us today. Explore features, join sessions, or manage your profile!</p>
+    <a href="login.html" class="btn">Login</a>
+    <footer>
+      <p>&copy; 2025 JobPortal</p>
+    </footer>
+  </div>
+</body>
+</html>
