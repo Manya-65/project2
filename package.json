@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon \"backend code/src/index.js\""
   },
   "keywords": [],
   "author": "",
@@ -20,5 +20,4 @@
   "devDependencies": {
     "nodemon": "^3.1.10"
   }
-  
 }
